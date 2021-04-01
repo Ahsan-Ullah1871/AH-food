@@ -1,0 +1,22 @@
+.profileCard{
+    background-color: burlywood;
+    text-align:center;
+    width: 300px;
+    padding:20px;
+    border-radius:30px;
+    position:absolute;
+    top:100px;
+    right: 0;
+    display:none;
+    z-index: 1;
+
+}
+.profilePhoto img{
+  width: 150px;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.closeButton{
+  margin-bottom: 10px;
+}

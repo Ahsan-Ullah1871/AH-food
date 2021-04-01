@@ -1,0 +1,17 @@
+.NotFindCard{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+        background-color: burlywood;
+
+    border: 2px solid  red;
+    padding: 10px;
+}
+.notFindHeader{
+    background-color: crimson;
+    color: beige;
+}
+.notFindBody{
+    background-color: burlywood;
+    color: crimson;
+}

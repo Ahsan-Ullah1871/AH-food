@@ -1,0 +1,41 @@
+.foodDetailsPart{
+  margin-top:230px;
+  font-family: 'Patrick Hand', cursive;
+
+}
+h1{
+  font-family: 'Rock Salt', cursive;
+
+    text-align: center;
+  background: -webkit-linear-gradient(#FBAB7E,#F7CE68);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:45px;
+}
+
+.foodDetailsCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(#FBAB7E,#F7CE68);
+    padding:30px;
+    border-radius:20px;
+    font-size: 20px;
+}
+.Info{
+    width: 40%;
+}
+.imageAndVideo{
+    width: 40%;
+        margin-left:  auto;
+        text-align: center;
+
+}
+.imageAndVideo img{
+    width: 400px;
+    border-radius: 20px;
+}
+

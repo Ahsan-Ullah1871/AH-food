@@ -1,0 +1,9 @@
+.cardPart {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
+	margin-top:230px;
+	text-align:center;
+}

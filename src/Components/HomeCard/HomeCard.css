@@ -1,0 +1,17 @@
+.homeCard{
+        max-width: 345;
+		margin: 20px 10px;
+		padding: 10px;
+		width: 30%;
+		text-align: center;
+		font-family: 'Roboto Mono', monospace;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .homeCard {
+
+	width:  50%;
+	
+  }
+}

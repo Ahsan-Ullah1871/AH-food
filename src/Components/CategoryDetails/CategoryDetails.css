@@ -1,0 +1,9 @@
+.categoryCard{
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: center;
+ margin-top: 230px;
+ font-family: 'Newsreader', serif;
+
+}
+

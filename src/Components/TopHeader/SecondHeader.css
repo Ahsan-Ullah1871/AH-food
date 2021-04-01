@@ -1,0 +1,80 @@
+.navBarPart {
+	background-color: #1a202c;
+	height: 70px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+font-family: 'Patrick Hand', cursive;
+font-size: 25px;
+}
+.navBarPart a {
+	background-color: antiquewhite ;
+	padding: 10px;
+	text-decoration: none;
+	color: blue;
+	width: 100px;
+	margin: 10px 10px;
+	text-align: center;
+	border-radius: 10px;
+}
+.navBarPart a:hover {
+	background-color:  blue ;
+	color: white;
+}
+
+/* mobileNav */
+.mobileNavbar{
+	background-color: #1a202c;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	display:none;
+ }
+
+
+
+ .mobileNavLink{
+	 background-color: sandybrown;
+	 width: 150px;
+	 padding: 20px;
+	 border-radius:20px;
+	 position: absolute;
+	 right: 10;
+  }
+
+ .mobileNavLink a{
+	 display: block;
+	 background-color: antiquewhite ;
+	padding: 10px;
+	text-decoration: none;
+	color: blue;
+	width: 100px;
+	margin-top:10px;
+ }
+
+  .mobileNavLink a:hover {
+	background-color:  blue ;
+	color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .navBarPart {
+
+	height:  auto;
+	
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navBarPart {
+
+	display:  none;
+	
+  }
+  .mobileNavbar{
+	  display: block;
+  }
+}
+ 
